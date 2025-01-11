@@ -1,0 +1,15 @@
+# Build Files
+/target
+# Dumps
+*.dump
+# Downloaded Files
+*.json
+*.png
+# Any logs
+*.log
+
+# vscode 
+.vscode/
+
+# Cargo
+Cargo.lock
