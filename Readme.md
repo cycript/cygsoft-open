@@ -8,10 +8,16 @@ Although, the frontend code is absolutely abysmal. The frontend should never be 
 
 [Valorant Api](https://valorant-api.com/) is used for several downloads and data updates
 # Features: 
-- Auto Updates for new agents 
-- Auto Updates for new maps
-- minimal use for WinApi
+- Auto Updates for new agents (Valorant Api)
+- Auto Updates for new maps (Valorant Api)
+- - -
+- Minimal use of WinApi
+- Gets Windows kernel with no api calls
+- Enumerate processes without api calls
+- Get big pool table  without api calls 
+- Read Process memory without api calls (ofc)
 
+if i recall correctly, all these things were achieved using just reading physical memory.
 
 
 It previously used to Get Big Pool Table to get Vanguard's "Shadow Memory" or "Guarded Memory" pool,
